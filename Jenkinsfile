@@ -5,22 +5,22 @@ pipeline {
         nodejs 'nodejs'
     }
     stages {
-        stage('clone') {
+        stage('Clone') {
             steps {
                 git 'https://github.com/r-jkum-r/CICD-node.js.git'
             }
         }
-        stage('install') {
+        stage('Install') {
             steps {
                 sh 'npm install'
             }
         }
-        stage('test') {
+        stage('Test') {
             steps {
                 sh 'npm test'
             }
         }
-        stage('build') {
+        stage('Build') {
             steps {
                 sh 'npm run build'
             }
