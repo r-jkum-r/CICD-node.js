@@ -3,10 +3,12 @@
     "version": "1.0.0",
     "description": "A simple Node.js app for Kubernetes demo",
     "main": "app.js",
-    "scripts": {
-        "start": "node app.js",
-        "test": "echo \"No tests yet\" && exit 0"
-    },
+"scripts": {
+  "start": "node app.js",
+  "test": "echo \"No tests yet\" && exit 0",
+  "build": "echo \"No build step yet\""
+}
+,
     "author": "Rajkumar",
     "license": "ISC",
     "dependencies": {
